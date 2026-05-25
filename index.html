@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Access Towers Services — South London & South East's leading scaffold tower hire, sales and PASMA training provider since 2004. Call 0208 665 1181."/>
+<title>Access Towers Services | Tower Hire, Sales & Training | Croydon, South London</title>
+<link rel="icon" href="/favicon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<style>
+/* ── SHARED ──────────────────────────────────────────────────── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--red:#E31E24;--redd:#C01A1F;--navy:#2D3A4A;--navyl:#3a4d62;--navyd:#1E2B38;--white:#fff;--off:#F7F8FA;--border:#E2E6EA;--text:#1a2332;--mid:#4A5568;--light:#718096;--ssm:0 1px 4px rgba(0,0,0,.08);--smd:0 4px 20px rgba(0,0,0,.10);--slg:0 12px 48px rgba(0,0,0,.16);--r:10px;--rl:18px;--t:all .2s ease}
+html{scroll-behavior:smooth}
+body{font-family:'Barlow',sans-serif;font-size:16px;line-height:1.6;color:var(--text);background:var(--white);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}ul{list-style:none}img{max-width:100%;display:block}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 24px}
+.topbar{background:var(--navyd);color:rgba(255,255,255,.75);font-size:13px;padding:9px 0}
+.topbar .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.topbar a{color:rgba(255,255,255,.75);transition:var(--t)}.topbar a:hover{color:var(--red)}
+.tbg{display:flex;align-items:center;gap:20px}.topbar i{color:var(--red);margin-right:5px}
+.hdr{background:var(--white);border-bottom:3px solid var(--red);position:sticky;top:0;z-index:900;box-shadow:var(--ssm)}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+.hdr-logo img{height:36px;width:auto;filter:brightness(0)}
+nav.main a{font-size:14px;font-weight:600;color:var(--mid);padding:7px 13px;border-radius:7px;transition:var(--t);display:inline-block}
+nav.main a:hover,nav.main a.active{color:var(--navy);background:var(--off)}
+.hdr-acts{display:flex;align-items:center;gap:8px}
+.mob-nav{display:none;flex-direction:column;background:var(--white);border-top:1px solid var(--border);padding:14px 20px;gap:4px}
+.mob-nav.open{display:flex}
+.mob-nav a{font-size:15px;font-weight:600;color:var(--mid);padding:11px 14px;border-radius:8px;transition:var(--t)}
+.mob-nav a:hover{color:var(--navy);background:var(--off)}
+.hbg{display:none;background:none;border:none;font-size:24px;color:var(--navy);cursor:pointer;padding:4px}
+.btn{display:inline-flex;align-items:center;gap:7px;font-family:'Barlow',sans-serif;font-weight:700;border-radius:var(--r);cursor:pointer;transition:var(--t);white-space:nowrap;border:2px solid transparent;text-decoration:none}
+.btn-sm{font-size:13px;padding:7px 15px}.btn-md{font-size:14px;padding:10px 20px}.btn-lg{font-size:15px;padding:13px 28px}.btn-xl{font-size:16px;font-weight:800;padding:16px 34px;border-radius:12px}
+.btn-red{background:var(--red);color:#fff}.btn-red:hover{background:var(--redd);transform:translateY(-1px);box-shadow:0 6px 20px rgba(227,30,36,.35)}
+.btn-navy{background:var(--navy);color:#fff}.btn-navy:hover{background:var(--navyl);transform:translateY(-1px)}
+.btn-out{background:transparent;color:var(--navy);border-color:var(--border)}.btn-out:hover{border-color:var(--navy)}
+.btn-outw{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}.btn-outw:hover{border-color:#fff;background:rgba(255,255,255,.08)}
+.trust{background:#FFF5F5;border-bottom:1px solid #FFD0D0;padding:14px 0}
+.trust .wrap{display:flex;align-items:center;justify-content:space-around;flex-wrap:wrap;gap:12px}
+.ti{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--navy)}
+.ti i{color:var(--red);font-size:16px}
+section{padding:68px 0}
+.eye{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--red);margin-bottom:10px}
+.eye::before{content:'';width:16px;height:3px;background:var(--red);border-radius:2px}
+h2.st{font-family:'Barlow Condensed',sans-serif;font-size:clamp(26px,3.5vw,40px);font-weight:900;color:var(--navy);line-height:1.1;text-transform:uppercase;letter-spacing:.02em;margin-bottom:14px}
+.si{font-size:16px;color:var(--light);max-width:580px;line-height:1.75}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);background:var(--navy);border-radius:var(--rl);overflow:hidden;margin-top:44px}
+.stat{padding:26px 20px;text-align:center;border-right:1px solid rgba(255,255,255,.07)}
+.stat:last-child{border:none}
+.stn{font-family:'Barlow Condensed',sans-serif;font-size:38px;font-weight:900;color:var(--red);line-height:1;margin-bottom:6px}
+.stl{font-size:12px;color:rgba(255,255,255,.6);font-weight:500}
+.ctaband{background:var(--red);color:#fff;padding:64px 0;position:relative;overflow:hidden}
+.ctaband::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.03) 0,rgba(255,255,255,.03) 1px,transparent 0,transparent 50%);background-size:16px 16px}
+.ctaband .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1fr auto;align-items:center;gap:32px}
+.ctaband h2{font-family:'Barlow Condensed',sans-serif;font-size:clamp(24px,3.5vw,40px);font-weight:900;text-transform:uppercase;margin-bottom:8px}
+.ctaband p{font-size:16px;color:rgba(255,255,255,.85);line-height:1.6}
+.cta-r{display:flex;flex-direction:column;gap:10px;align-items:flex-end;flex-shrink:0}
+.cta-tel{font-size:18px;font-weight:800;color:#fff;display:flex;align-items:center;gap:8px}
+footer{background:var(--navyd);color:rgba(255,255,255,.7);padding:52px 0 24px}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:36px;margin-bottom:36px}
+.foot-logo{margin-bottom:12px}
+.foot-logo img{height:32px;width:auto;filter:brightness(0) invert(1)}
+.foot-brand p{font-size:13px;line-height:1.75;margin-top:10px;max-width:240px}
+.foot-accred{display:flex;align-items:center;gap:10px;margin-top:16px;flex-wrap:wrap}
+.accred-badge{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:6px 12px;font-size:11px;font-weight:700;color:rgba(255,255,255,.7);text-transform:uppercase;letter-spacing:.05em}
+.foot-col h4{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:800;color:#fff;text-transform:uppercase;letter-spacing:.1em;margin-bottom:14px}
+.foot-col ul li{margin-bottom:8px}
+.foot-col ul li a{font-size:13px;color:rgba(255,255,255,.55);transition:var(--t)}.foot-col ul li a:hover{color:var(--red)}
+.foot-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px}
+
+/* ── PAGE SPECIFIC ───────────────────────────────────────────── */
+.hero{background:var(--navy);color:#fff;padding:80px 0 100px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.015) 0,rgba(255,255,255,.015) 1px,transparent 0,transparent 50%);background-size:20px 20px}
+.hero::after{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--red)}
+.hero-wave{position:absolute;bottom:-1px;left:0;right:0}
+.hero .wrap{display:grid;grid-template-columns:1fr 400px;gap:52px;align-items:center;position:relative;z-index:2}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(227,30,36,.15);border:1px solid rgba(227,30,36,.4);color:#FFB3B5;font-size:12px;font-weight:700;padding:5px 13px;border-radius:30px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.08em}
+.hero h1{font-family:'Barlow Condensed',sans-serif;font-size:clamp(36px,5.5vw,64px);font-weight:900;line-height:1.0;margin-bottom:18px;text-transform:uppercase;letter-spacing:.01em}
+.hero h1 em{color:var(--red);font-style:normal}
+.hero-sub{font-size:17px;color:rgba(255,255,255,.75);margin-bottom:28px;line-height:1.7;max-width:520px}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px}
+.pill{display:flex;align-items:center;gap:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:30px;padding:6px 13px;font-size:12px;font-weight:600;color:rgba(255,255,255,.85)}
+.pill i{color:var(--red);font-size:11px}
+.hctas{display:flex;gap:12px;flex-wrap:wrap}
+.hero-card{background:#fff;border-radius:var(--rl);padding:28px;box-shadow:var(--slg);position:relative;z-index:2;color:var(--text)}
+.hc-title{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--light);margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--border)}
+.hc-row{display:flex;align-items:flex-start;gap:12px;padding:12px 0;border-bottom:1px solid var(--border)}
+.hc-row:last-of-type{border:none}
+.hc-ico{width:38px;height:38px;border-radius:9px;background:#FFF0F0;color:var(--red);display:flex;align-items:center;justify-content:center;font-size:15px;flex-shrink:0}
+.hc-l{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--light);margin-bottom:2px}
+.hc-v{font-size:14px;font-weight:700;color:var(--text)}
+.hc-acts{margin-top:18px;display:flex;flex-direction:column;gap:9px}
+.hc-acts .btn{justify-content:center}
+.hc-phone{display:flex;align-items:center;justify-content:center;gap:7px;font-size:14px;font-weight:700;color:var(--navy);border:2px solid var(--border);border-radius:var(--r);padding:11px;transition:var(--t)}
+.hc-phone i{color:var(--red)}.hc-phone:hover{border-color:var(--red);color:var(--red)}
+
+/* SERVICES */
+.svc-sec{background:var(--off)}
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
+.svc-card{background:#fff;border-radius:var(--rl);overflow:hidden;border:1px solid var(--border);box-shadow:var(--ssm);transition:var(--t);display:block}
+.svc-card:hover{transform:translateY(-5px);box-shadow:var(--smd);border-color:var(--red)}
+.svc-head{padding:28px 26px;position:relative;overflow:hidden}
+.svc-head::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.04) 0,rgba(255,255,255,.04) 1px,transparent 0,transparent 50%);background-size:12px 12px}
+.svc-ico{width:56px;height:56px;border-radius:15px;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:26px;color:#fff;margin-bottom:16px;position:relative;z-index:1}
+.svc-head h3{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:.03em;position:relative;z-index:1}
+.svc-head p{font-size:13px;color:rgba(255,255,255,.7);line-height:1.6;margin-top:6px;position:relative;z-index:1}
+.svc-body{padding:20px 26px}
+.svc-list li{display:flex;align-items:center;gap:9px;font-size:14px;color:var(--mid);padding:6px 0;border-bottom:1px solid var(--border)}
+.svc-list li:last-child{border:none}
+.svc-list li i{color:var(--red);font-size:12px}
+.svc-foot{padding:16px 26px 22px;display:flex;align-items:center;justify-content:space-between}
+
+/* HOW IT WORKS */
+.how-sec{background:#fff}
+.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:44px;position:relative}
+.how-grid::before{content:'';position:absolute;top:32px;left:calc(12.5%);right:calc(12.5%);height:2px;background:var(--border);z-index:0}
+.how-step{text-align:center;padding:0 20px;position:relative;z-index:1}
+.how-num{width:64px;height:64px;border-radius:50%;background:var(--navy);color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:900;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;border:4px solid var(--white);box-shadow:0 0 0 2px var(--navy)}
+.how-step.active .how-num{background:var(--red);box-shadow:0 0 0 2px var(--red)}
+.how-step h4{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:800;color:var(--navy);text-transform:uppercase;margin-bottom:8px}
+.how-step p{font-size:13px;color:var(--light);line-height:1.65}
+
+/* WHY */
+.why-sec{background:var(--off)}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;margin-top:44px}
+.why-list li{display:flex;gap:16px;margin-bottom:24px;align-items:flex-start}
+.why-ico{width:46px;height:46px;border-radius:12px;background:#FFF0F0;color:var(--red);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.why-txt strong{display:block;font-size:15px;font-weight:700;color:var(--navy);margin-bottom:3px}
+.why-txt p{font-size:14px;color:var(--light);line-height:1.65}
+.why-img-block{background:var(--navy);border-radius:var(--rl);padding:36px;position:relative;overflow:hidden}
+.why-img-block::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,rgba(255,255,255,.03) 0,rgba(255,255,255,.03) 1px,transparent 0,transparent 50%);background-size:16px 16px}
+.why-img-block::after{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:var(--red)}
+.wib-inner{position:relative;z-index:1}
+.wib-inner h3{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:900;color:#fff;text-transform:uppercase;margin-bottom:20px}
+.wib-row{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.wib-row:last-child{border:none}
+.wib-row i{color:var(--red);font-size:18px;width:24px}
+.wib-row span{font-size:14px;color:rgba(255,255,255,.8);font-weight:600}
+
+/* TRAINING STRIP */
+.train-sec{background:#fff}
+.train-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:44px}
+.train-card{background:var(--off);border-radius:var(--rl);padding:24px 20px;border:1px solid var(--border);transition:var(--t);text-align:center;display:block}
+.train-card:hover{transform:translateY(-4px);box-shadow:var(--smd);border-color:var(--red);background:#fff}
+.train-ico{width:52px;height:52px;border-radius:14px;background:#FFF0F0;color:var(--red);display:flex;align-items:center;justify-content:center;font-size:22px;margin:0 auto 14px}
+.train-card h4{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:800;color:var(--navy);text-transform:uppercase;margin-bottom:6px}
+.train-card p{font-size:13px;color:var(--light);line-height:1.6;margin-bottom:14px}
+.train-card .btn{width:100%;justify-content:center;font-size:13px}
+
+/* INDUSTRIES */
+.ind-sec{background:var(--navy);color:#fff}
+.ind-sec .si{color:rgba(255,255,255,.65)}
+.ind-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:44px}
+.ind-tile{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);border-radius:var(--r);padding:18px 12px;text-align:center;transition:var(--t)}
+.ind-tile:hover{background:rgba(227,30,36,.12);border-color:var(--red)}
+.ind-tile i{font-size:24px;color:var(--red);margin-bottom:10px;display:block}
+.ind-tile span{font-size:12px;font-weight:600;color:rgba(255,255,255,.8);line-height:1.4;display:block}
+
+/* TESTIMONIALS */
+.test-sec{background:var(--off)}
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
+.test-card{background:#fff;border-radius:var(--rl);padding:26px;border:1px solid var(--border);box-shadow:var(--ssm)}
+.test-stars{color:#F59E0B;font-size:14px;margin-bottom:12px}
+.test-q{font-size:14px;color:var(--mid);line-height:1.75;margin-bottom:16px;font-style:italic}
+.test-who{display:flex;align-items:center;gap:10px}
+.test-av{width:38px;height:38px;border-radius:50%;background:var(--navy);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:15px}
+.test-name{font-size:14px;font-weight:700;color:var(--navy)}
+.test-role{font-size:12px;color:var(--light)}
+
+/* RESPONSIVE */
+@media(max-width:1000px){.hero .wrap{grid-template-columns:1fr}.hero-card{display:none}.svc-grid{grid-template-columns:1fr 1fr}.train-grid{grid-template-columns:1fr 1fr}.ind-grid{grid-template-columns:repeat(3,1fr)}.why-grid{grid-template-columns:1fr}.how-grid{grid-template-columns:1fr 1fr}.how-grid::before{display:none}}
+@media(max-width:700px){nav.main{display:none}.hbg{display:block}.svc-grid{grid-template-columns:1fr}.train-grid{grid-template-columns:1fr 1fr}.ind-grid{grid-template-columns:repeat(3,1fr)}.stats{grid-template-columns:1fr 1fr}.ctaband .wrap{grid-template-columns:1fr}.cta-r{align-items:flex-start}.foot-grid{grid-template-columns:1fr 1fr}.test-grid{grid-template-columns:1fr}}
+@media(max-width:480px){.tbg:last-child{display:none}.train-grid,.ind-grid{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr 1fr}.foot-grid{grid-template-columns:1fr}section{padding:48px 0}}
+
+/* === NEW NAVIGATION (dropdowns) === */
+nav.main{display:flex;align-items:center;gap:2px}
+nav.main .nav-item{position:relative}
+nav.main .nav-link{font-size:14px;font-weight:600;color:var(--mid);padding:7px 13px;border-radius:7px;transition:var(--t);display:inline-flex;align-items:center;gap:6px;cursor:pointer;text-decoration:none}
+nav.main .nav-link:hover,nav.main .nav-link.active{color:var(--navy);background:var(--off)}
+nav.main .nav-caret{font-size:10px;color:var(--light);transition:transform .2s}
+nav.main .nav-item.has-dropdown:hover .nav-caret{transform:rotate(180deg)}
+nav.main .nav-item.has-dropdown:hover .dropdown{display:block}
+.dropdown{display:none;position:absolute;top:calc(100% + 8px);left:0;background:var(--white);min-width:280px;box-shadow:var(--smd);border:1px solid var(--border);border-radius:var(--r);padding:8px;z-index:1000}
+.dropdown::before{content:'';position:absolute;top:-8px;left:0;right:0;height:8px}
+nav.main .dropdown a{display:flex !important;align-items:center;gap:12px;padding:10px 12px;border-radius:8px;background:transparent;font-weight:600;text-decoration:none}
+nav.main .dropdown a:hover{background:var(--off)}
+nav.main .dropdown a.active{background:var(--off)}
+nav.main .dropdown a i{color:var(--red);font-size:18px;width:24px;text-align:center;flex-shrink:0}
+.dd-t{font-size:14px;font-weight:700;color:var(--navy);line-height:1.2;margin-bottom:2px}
+.dd-s{font-size:11px;font-weight:500;color:var(--light);line-height:1.3}
+nav.main .dropdown a:hover .dd-t,nav.main .dropdown a.active .dd-t{color:var(--red)}
+/* Mobile sections */
+.mob-section{display:flex;flex-direction:column}
+.mob-section-tog{display:flex;align-items:center;justify-content:space-between;width:100%;background:none;border:none;font-size:15px;font-weight:600;color:var(--mid);padding:11px 14px;border-radius:8px;cursor:pointer;font-family:inherit;text-align:left}
+.mob-section-tog i{font-size:11px;transition:transform .2s;color:var(--light)}
+.mob-section.open .mob-section-tog{color:var(--navy);background:var(--off)}
+.mob-section.open .mob-section-tog i{transform:rotate(180deg);color:var(--red)}
+.mob-section-body{display:none;flex-direction:column;padding:4px 0 8px 16px;gap:2px}
+.mob-section.open .mob-section-body{display:flex}
+.mob-section-body a{font-size:14px;padding:9px 14px;color:var(--mid);border-radius:6px;font-weight:600}
+.mob-section-body a:hover,.mob-section-body a.active{color:var(--red);background:var(--off)}
+.mob-nav .mob-link{font-size:15px;font-weight:600;color:var(--mid);padding:11px 14px;border-radius:8px;transition:var(--t)}
+.mob-nav .mob-link:hover,.mob-nav .mob-link.active{color:var(--navy);background:var(--off)}
+
+/* Reset old dropdown styles to flat Hire/Buy links */
+nav.main .nav-link{font-size:14px;font-weight:600;color:var(--mid);padding:7px 13px;border-radius:7px;transition:var(--t);display:inline-flex;align-items:center;gap:6px;text-decoration:none}
+nav.main .nav-link:hover,nav.main .nav-link.active{color:var(--navy);background:var(--off)}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar"><div class="wrap">
+  <div class="tbg"><a href="tel:02086651181"><i class="fas fa-phone"></i>0208 665 1181</a><a href="mailto:info@accesstowersgroup.co.uk"><i class="fas fa-envelope"></i>info@accesstowersgroup.co.uk</a></div>
+  <div class="tbg"><span><i class="fas fa-map-marker-alt"></i>Croydon, Surrey CR0 4TQ</span><span><i class="fas fa-clock"></i>Mon–Sun, All Year Round</span></div>
+</div></div>
+
+<!-- HEADER -->
+<header class="hdr"><div class="wrap">
+  <a href="/" class="hdr-logo"><img src="/logo-white.png" alt="Access Towers Services"/></a>
+  <nav class="main">
+    <a href="/" class="nav-link active">Home</a>
+    <a href="/tower-sales" class="nav-link">Buy</a>
+    <a href="/tower-hire" class="nav-link">Hire</a>
+    <div class="nav-item has-dropdown">
+      <a href="/training" class="nav-link">Training<i class="fas fa-chevron-down nav-caret"></i></a>
+      <div class="dropdown">
+        <a href="/pasma-training"><i class="fas fa-graduation-cap"></i><div><div class="dd-t">PASMA Training</div><div class="dd-s">Towers for Users course</div></div></a>
+        <a href="/ipaf-training"><i class="fas fa-graduation-cap"></i><div><div class="dd-t">IPAF Training</div><div class="dd-s">MEWP 3a &amp; 3b operator</div></div></a>
+        <a href="/safety-harness-training"><i class="fas fa-hard-hat"></i><div><div class="dd-t">Safety Harness</div><div class="dd-s">Working at height awareness</div></div></a>
+        <a href="/first-aid-training"><i class="fas fa-briefcase-medical"></i><div><div class="dd-t">First Aid</div><div class="dd-s">Emergency First Aid at Work</div></div></a>
+      </div>
+    </div>
+    <a href="/about" class="nav-link">About</a>
+    <a href="/contact" class="nav-link">Contact</a>
+  </nav>
+  <div class="hdr-acts">
+    <a href="tel:02086651181" class="btn btn-out btn-sm"><i class="fas fa-phone"></i>Call Us</a>
+    <a href="/contact" class="btn btn-red btn-sm"><i class="fas fa-calendar-check"></i>Get a Quote</a>
+    <button class="hbg" onclick="document.getElementById('mob').classList.toggle('open')"><i class="fas fa-bars"></i></button>
+  </div>
+</div>
+<nav class="mob-nav" id="mob">
+  <a href="/" class="mob-link active">Home</a>
+  <a href="/tower-sales" class="mob-link">Buy</a>
+  <a href="/tower-hire" class="mob-link">Hire</a>
+  <div class="mob-section">
+    <button class="mob-section-tog" onclick="this.parentElement.classList.toggle('open')">Training<i class="fas fa-chevron-down"></i></button>
+    <div class="mob-section-body">
+      <a href="/pasma-training">PASMA Training</a>
+      <a href="/ipaf-training">IPAF Training</a>
+      <a href="/safety-harness-training">Safety Harness</a>
+      <a href="/first-aid-training">First Aid</a>
+    </div>
+  </div>
+  <a href="/about" class="mob-link">About</a>
+  <a href="/contact" class="mob-link">Contact</a>
+  <a href="/contact" class="btn btn-red" style="margin-top:8px">Get a Quote →</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="hero-tag"><i class="fas fa-award"></i>South London's No.1 Work at Height Specialists</div>
+      <h1>Towers. Training.<br/><em>Done Right.</em><br/>Since 2004.</h1>
+      <p class="hero-sub">Scaffold tower hire, sales and fully accredited PASMA & IPAF training — serving London & the South East for over 20 years. Next-day delivery. Expert advice. Unbeatable service.</p>
+      <div class="pills">
+        <div class="pill"><i class="fas fa-truck"></i>Next-Day Delivery</div>
+        <div class="pill"><i class="fas fa-medal"></i>Top 5% UK PASMA Centre</div>
+        <div class="pill"><i class="fas fa-calendar"></i>7 Days a Week</div>
+        <div class="pill"><i class="fas fa-shield-alt"></i>No Hire Period Lock-In</div>
+      </div>
+      <div class="hctas">
+        <a href="/tower-hire" class="btn btn-red btn-xl"><i class="fas fa-hard-hat"></i>Hire a Tower</a>
+        <a href="/training" class="btn btn-outw btn-xl"><i class="fas fa-graduation-cap"></i>Book Training</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="hc-title">Quick Enquiry</div>
+      <div class="hc-row"><div class="hc-ico"><i class="fas fa-hard-hat"></i></div><div><div class="hc-l">Tower Hire</div><div class="hc-v">Next-day delivery available</div></div></div>
+      <div class="hc-row"><div class="hc-ico"><i class="fas fa-store"></i></div><div><div class="hc-l">Tower Sales</div><div class="hc-v">Single, double, stair & more</div></div></div>
+      <div class="hc-row"><div class="hc-ico"><i class="fas fa-graduation-cap"></i></div><div><div class="hc-l">Training</div><div class="hc-v">PASMA, IPAF, Harness, First Aid</div></div></div>
+      <div class="hc-row"><div class="hc-ico"><i class="fas fa-map-marker-alt"></i></div><div><div class="hc-l">Coverage</div><div class="hc-v">London & South East</div></div></div>
+      <div class="hc-acts">
+        <a href="/contact" class="btn btn-red btn-md"><i class="fas fa-paper-plane"></i>Send an Enquiry</a>
+        <a href="tel:02086651181" class="hc-phone"><i class="fas fa-phone"></i>0208 665 1181</a>
+      </div>
+    </div>
+  </div>
+  <svg class="hero-wave" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,60 C360,0 1080,0 1440,60 L1440,60 L0,60 Z" fill="white"/></svg>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust"><div class="wrap">
+  <div class="ti"><i class="fas fa-award"></i>Trading Since 2004</div>
+  <div class="ti"><i class="fas fa-medal"></i>Top 5% UK PASMA Centre</div>
+  <div class="ti"><i class="fas fa-truck"></i>Next-Day Delivery</div>
+  <div class="ti"><i class="fas fa-headset"></i>Mon–Sun Support</div>
+  <div class="ti"><i class="fas fa-star"></i>Hundreds of Repeat Clients</div>
+</div></div>
+
+<!-- SERVICES -->
+<section class="svc-sec">
+  <div class="wrap">
+    <div class="eye">What We Do</div>
+    <h2 class="st">Hire. Buy. Train.<br/>Everything at Height.</h2>
+    <p class="si">Three ways to work with us — or combine all three for a complete work-at-height solution for your business.</p>
+    <div class="svc-grid">
+      <!-- HIRE -->
+      <a href="/tower-hire" class="svc-card">
+        <div class="svc-head" style="background:var(--navy)">
+          <div class="svc-ico"><i class="fas fa-hard-hat"></i></div>
+          <h3>Tower Hire</h3>
+          <p>Mobile access towers, low-level platforms, GRP towers, stair towers & cantilever — delivered next day, collected when you're done.</p>
+        </div>
+        <div class="svc-body">
+          <ul class="svc-list">
+            <li><i class="fas fa-check"></i>Single & double width towers</li>
+            <li><i class="fas fa-check"></i>Low-level access & podiums</li>
+            <li><i class="fas fa-check"></i>GRP non-conductive towers</li>
+            <li><i class="fas fa-check"></i>Stair & cantilever towers</li>
+          </ul>
+        </div>
+        <div class="svc-foot">
+          <span style="font-size:13px;color:var(--light)">No hire period lock-in</span>
+          <span class="btn btn-red btn-sm">View Hire →</span>
+        </div>
+      </a>
+      <!-- TRAINING -->
+      <a href="/training" class="svc-card">
+        <div class="svc-head" style="background:var(--red)">
+          <div class="svc-ico"><i class="fas fa-graduation-cap"></i></div>
+          <h3>Training</h3>
+          <p>PASMA, IPAF, Safety Harness, First Aid and more — at our Croydon centre or on your site. Mon–Sun, all year round.</p>
+        </div>
+        <div class="svc-body">
+          <ul class="svc-list">
+            <li><i class="fas fa-check"></i>PASMA — Top 5% UK Centre</li>
+            <li><i class="fas fa-check"></i>IPAF operator certification</li>
+            <li><i class="fas fa-check"></i>Safety harness & leading edge</li>
+            <li><i class="fas fa-check"></i>Emergency first aid (EFAW)</li>
+          </ul>
+        </div>
+        <div class="svc-foot">
+          <span style="font-size:13px;color:var(--light)">On-site delivery available</span>
+          <span class="btn btn-red btn-sm">View Courses →</span>
+        </div>
+      </a>
+      <!-- SALES -->
+      <a href="/tower-sales" class="svc-card">
+        <div class="svc-head" style="background:var(--navyl)">
+          <div class="svc-ico"><i class="fas fa-store"></i></div>
+          <h3>Tower Sales</h3>
+          <p>Buy your own tower outright — EN 1004 certified, 2-year warranty, UK-wide delivery. Perfect for regular users who want to own rather than hire.</p>
+        </div>
+        <div class="svc-body">
+          <ul class="svc-list">
+            <li><i class="fas fa-check"></i>Single & double width towers</li>
+            <li><i class="fas fa-check"></i>One person & stair towers</li>
+            <li><i class="fas fa-check"></i>Podium units & cantilever</li>
+            <li><i class="fas fa-check"></i>Trade accounts available</li>
+          </ul>
+        </div>
+        <div class="svc-foot">
+          <span style="font-size:13px;color:var(--light)">Hire-to-buy option available</span>
+          <span class="btn btn-red btn-sm">Browse Towers →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-sec">
+  <div class="wrap">
+    <div class="eye">Simple Process</div>
+    <h2 class="st">Up and Running in 24 Hours</h2>
+    <p class="si">Whether you need a tower for tomorrow or training for your whole team, here's how easy it is to get started.</p>
+    <div class="how-grid">
+      <div class="how-step active">
+        <div class="how-num">1</div>
+        <h4>Tell Us What You Need</h4>
+        <p>Call, email or fill out the enquiry form. Tell us the job, height and location — or which course you need.</p>
+      </div>
+      <div class="how-step">
+        <div class="how-num">2</div>
+        <h4>Get Expert Advice</h4>
+        <p>Our hire desk knows every piece of kit and every course. We'll recommend exactly the right solution — free of charge.</p>
+      </div>
+      <div class="how-step">
+        <div class="how-num">3</div>
+        <h4>Confirm &amp; Book</h4>
+        <p>Call or email to confirm. We accept card, bank transfer and have trade accounts for regular customers.</p>
+      </div>
+      <div class="how-step">
+        <div class="how-num">4</div>
+        <h4>Delivered or Trained</h4>
+        <p>Tower arrives next day ready to use, or your team attends the course and leaves with a recognised qualification.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section style="background:var(--navy);padding:48px 0">
+  <div class="wrap">
+    <div class="stats" style="margin-top:0">
+      <div class="stat"><div class="stn">20+</div><div class="stl">Years in the Industry</div></div>
+      <div class="stat"><div class="stn">Top 5%</div><div class="stl">UK PASMA Provider</div></div>
+      <div class="stat"><div class="stn">1000s</div><div class="stl">Customers Served</div></div>
+      <div class="stat"><div class="stn">7 Days</div><div class="stl">Mon–Sun, All Year Round</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY ACCESS TOWERS -->
+<section class="why-sec">
+  <div class="wrap">
+    <div class="eye">Why Choose Us</div>
+    <h2 class="st">The Access Towers Difference</h2>
+    <div class="why-grid">
+      <ul class="why-list">
+        <li><div class="why-ico"><i class="fas fa-clock"></i></div><div class="why-txt"><strong>Next-Day Delivery, No Fuss</strong><p>Order today, tower on site tomorrow. We aim for next-day delivery and hit it — no long wait, no complicated booking systems.</p></div></li>
+        <li><div class="why-ico"><i class="fas fa-lock-open"></i></div><div class="why-txt"><strong>No Hire Period Lock-In</strong><p>Off-hire anytime with a day's notice. We collect it. You don't pay for days you don't need it. Simple and fair.</p></div></li>
+        <li><div class="why-ico"><i class="fas fa-medal"></i></div><div class="why-txt"><strong>PASMA's Top 5% in the UK</strong><p>Not just a training centre — one of the best in the country. Our instructors are experienced, qualified and genuinely good at teaching.</p></div></li>
+        <li><div class="why-ico"><i class="fas fa-headset"></i></div><div class="why-txt"><strong>Hire Desk That Actually Helps</strong><p>Real people, trained on every product we offer. No call centres. No bots. Just knowledgeable people who give you the right advice first time.</p></div></li>
+      </ul>
+      <div class="why-img-block">
+        <div class="wib-inner">
+          <h3>What Our Customers Say</h3>
+          <div class="wib-row"><i class="fas fa-quote-right"></i><span>"Best customer service I've had from any hire company. Tower arrived next morning, exactly as described."</span></div>
+          <div class="wib-row"><i class="fas fa-quote-right"></i><span>"Booked PASMA training for our whole crew. Instructor was brilliant — everyone left confident."</span></div>
+          <div class="wib-row"><i class="fas fa-quote-right"></i><span>"Been hiring from Access Towers for 5 years. Never let us down once."</span></div>
+          <div class="wib-row"><i class="fas fa-quote-right"></i><span>"Highly recommend. Fair prices, fast delivery, and they actually pick up the phone."</span></div>
+          <div style="margin-top:20px">
+            <a href="/contact" class="btn btn-red btn-md"><i class="fas fa-paper-plane"></i>Get in Touch Today</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINING COURSES -->
+<section class="train-sec">
+  <div class="wrap">
+    <div class="eye">Training Courses</div>
+    <h2 class="st">Certified. Accredited. Practical.</h2>
+    <p class="si">All courses run Mon–Sun, all year round. At our Croydon centre or on your site. Certificates issued same day.</p>
+    <div class="train-grid">
+      <a href="/pasma-training" class="train-card">
+        <div class="train-ico"><i class="fas fa-layer-group"></i></div>
+        <h4>PASMA</h4>
+        <p>Mobile access tower operation. 5-year qualification. We're a Top 5% UK approved centre.</p>
+        <span class="btn btn-red btn-sm">Book →</span>
+      </a>
+      <a href="/ipaf-training" class="train-card">
+        <div class="train-ico"><i class="fas fa-arrow-up"></i></div>
+        <h4>IPAF</h4>
+        <p>Powered access (MEWP) operator certification. PAL Card on completion.</p>
+        <span class="btn btn-red btn-sm">Book →</span>
+      </a>
+      <a href="/safety-harness-training" class="train-card">
+        <div class="train-ico"><i class="fas fa-shield-alt"></i></div>
+        <h4>Safety Harness</h4>
+        <p>Harness fitting, inspection and leading edge safety. Half or full day.</p>
+        <span class="btn btn-red btn-sm">Book →</span>
+      </a>
+      <a href="/first-aid-training" class="train-card">
+        <div class="train-ico"><i class="fas fa-first-aid"></i></div>
+        <h4>First Aid</h4>
+        <p>Emergency First Aid at Work (EFAW). Fully regulated, HSE compliant certificate.</p>
+        <span class="btn btn-red btn-sm">Book →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="ind-sec">
+  <div class="wrap">
+    <div class="eye" style="color:var(--red)">Who We Serve</div>
+    <h2 class="st" style="color:#fff">Built for the Trades</h2>
+    <p class="si">From sole traders to major contractors — if you work at height, we work for you.</p>
+    <div class="ind-grid">
+      <div class="ind-tile"><i class="fas fa-hard-hat"></i><span>Construction</span></div>
+      <div class="ind-tile"><i class="fas fa-paint-roller"></i><span>Decorating</span></div>
+      <div class="ind-tile"><i class="fas fa-bolt"></i><span>Electrical</span></div>
+      <div class="ind-tile"><i class="fas fa-wrench"></i><span>Maintenance</span></div>
+      <div class="ind-tile"><i class="fas fa-building"></i><span>Facilities</span></div>
+      <div class="ind-tile"><i class="fas fa-warehouse"></i><span>Warehousing</span></div>
+      <div class="ind-tile"><i class="fas fa-broadcast-tower"></i><span>Telecoms</span></div>
+      <div class="ind-tile"><i class="fas fa-solar-panel"></i><span>Solar / Renewables</span></div>
+      <div class="ind-tile"><i class="fas fa-train"></i><span>Rail</span></div>
+      <div class="ind-tile"><i class="fas fa-fire-extinguisher"></i><span>Fire & Rescue</span></div>
+      <div class="ind-tile"><i class="fas fa-university"></i><span>Education</span></div>
+      <div class="ind-tile"><i class="fas fa-tools"></i><span>DIY & Trade</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="ctaband">
+  <div class="wrap">
+    <div>
+      <h2>Ready to Get Started?</h2>
+      <p>Call us today or send an enquiry — our hire desk will match you with the right tower or course in minutes. No hard sell. Just honest expert advice.</p>
+    </div>
+    <div class="cta-r">
+      <a href="/contact" class="btn btn-navy btn-lg"><i class="fas fa-paper-plane"></i>Send an Enquiry</a>
+      <div class="cta-tel"><i class="fas fa-phone"></i>0208 665 1181</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand">
+      <div class="foot-logo"><img src="/logo-white.png" alt="Access Towers Services"/></div>
+      <p>Work at Height Specialists serving London &amp; the South East since 2004. PASMA Approved Training Centre, tower hire, sales and full training provision.</p>
+      <div class="foot-accred">
+        <div class="accred-badge">PASMA Approved</div>
+        <div class="accred-badge">IPAF Registered</div>
+        <div class="accred-badge">Since 2004</div>
+      </div>
+    </div>
+    <div class="foot-col"><h4>Hire &amp; Buy</h4><ul>
+      <li><a href="/tower-hire">Tower &amp; Low Level Hire</a></li>
+      <li><a href="/tower-sales">Buy a Tower</a></li>
+    </ul></div>
+    <div class="foot-col"><h4>Training</h4><ul>
+      <li><a href="/pasma-training">PASMA Training</a></li>
+      <li><a href="/ipaf-training">IPAF Training</a></li>
+      <li><a href="/safety-harness-training">Safety Harness</a></li>
+      <li><a href="/first-aid-training">First Aid</a></li>
+      <li><a href="/training">All Courses</a></li>
+    </ul></div>
+    <div class="foot-col"><h4>Contact</h4><ul>
+      <li><a href="tel:02086651181"><i class="fas fa-phone" style="color:var(--red);margin-right:5px"></i>0208 665 1181</a></li>
+      <li><a href="mailto:info@accesstowersgroup.co.uk">info@accesstowersgroup.co.uk</a></li>
+      <li><a href="/about">Unit 3, Coomber Way</a></li>
+      <li><a href="/about">Croydon, Surrey CR0 4TQ</a></li>
+    </ul></div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; 2025 Access Towers Services Ltd. All rights reserved.</span>
+    <span><a href="/about" style="color:rgba(255,255,255,.7);margin-right:14px">About</a><a href="/contact" style="color:var(--red)">accesstowersgroup.co.uk</a></span>
+  </div>
+</div></footer>
+<script>function faq(el){const i=el.parentElement;const o=i.classList.contains('open');document.querySelectorAll('.faq-i').forEach(x=>x.classList.remove('open'));if(!o)i.classList.add('open');}</script>
+</body>
+</html>
